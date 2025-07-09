@@ -41,7 +41,7 @@ Noticeably different regions, highlighted with red boxes, are used for clear com
 ## ✨ Features
 
 - Theoretical framework for Gaussianization of received signals
-- Channel simulation modules (e.g., AWGN, Rayleigh fading)
+- Channel simulation modules (e.g., AWGN, Rayleigh and MIMO)
 - Semantic reconstruction using diffusion models
 - Plug-and-play training and evaluation in diffusion.
 
