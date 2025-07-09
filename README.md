@@ -51,6 +51,7 @@ Noticeably different regions, highlighted with red boxes, are used for clear com
 pip install -r requirements.txt
 
 python scripts/img2img_with_wireless_channel.py --ckpt v2-1_512-ema-pruned.ckpt --config configs/stable-diffusion/v2-inference.yaml  --strength 0.5 --ddim_step 400 --scale 0 --dataset bedroom --n_samples 4 --outdir bedroom/
+```
 
 ## 🤝 Acknowledgements
 We would like to thank the Stable Diffusion open source community for providing code and model support, which inspired part of the diffusion backbone in our implementation.
