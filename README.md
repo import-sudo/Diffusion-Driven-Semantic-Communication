@@ -11,7 +11,7 @@ To handle received signals with non-Gaussian distributions, the framework **tran
 Then, according to the channel condition, the **signal-to-noise ratio (SNR)**, the system maps the received signals to an appropriate step in the diffusion model's forward process.  
 This step is implemented in the Function **stochastic_encode_according_snr**.
 
-By bridging the wireless channel noise with the diffusion process, the framework can effectively reconstruct high-fidelity semantic information under bandwidth constraints.
+By bridging the wireless channel noise with the diffusion process, the framework can effectively reconstruct high-fidelity semantic information.
 
 ## 🖼 Architecture
 
@@ -40,7 +40,7 @@ Noticeably different regions, highlighted with red boxes, are used for clear com
 
 ## ✨ Features
 
-- Theoretical framework for Gaussianization of received signals (Section III)
+- Theoretical framework for Gaussianization of received signals
 - Channel simulation modules (e.g., AWGN, Rayleigh fading)
 - Semantic reconstruction using diffusion models
 - Plug-and-play training and evaluation in diffusion.
@@ -54,7 +54,7 @@ python scripts/img2img_with_wireless_channel.py --ckpt v2-1_512-ema-pruned.ckpt 
 ```
 
 ## 🤝 Acknowledgements
-We would like to thank the Stable Diffusion open source community for providing code and model support, which inspired part of the diffusion backbone in our implementation.
+We would like to thank the **Stable Diffusion** open source community for providing code and model support, which inspired part of the diffusion backbone in our implementation.
 
 ## 🧠 Citation
 
