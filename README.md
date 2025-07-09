@@ -61,7 +61,7 @@ We would like to thank the **Stable Diffusion** open source community for provid
 If you use this code in your research, please cite:
 
 @ARTICLE{10945983,
-  author={Guo, Lei and Chen, Wei and Sun, Yuxuan and Ai, Bo and Pappas, Nikolaos and Quek, Tony},
+  author={Guo, Lei and Chen, Wei and Sun, Yuxuan and Ai, Bo and Pappas, Nikolaos and Quek, Tony Q. S.},
   journal={IEEE Transactions on Wireless Communications}, 
   title={Diffusion-Driven Semantic Communication for Generative Models with Bandwidth Constraints}, 
   year={2025}}
