@@ -20,7 +20,7 @@ By bridging the wireless channel noise with the diffusion process, the framework
 </p>
 
 This diagram illustrates:
-- Wireless channel as part of the diffusion forward process
+- Wireless channel as the forward process of diffusion
 - Gaussianization of received signals
 - Adaptive SNR-based encoding
 - Reverse denoising and semantic reconstruction
